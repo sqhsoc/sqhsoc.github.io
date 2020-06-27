@@ -1,2 +1,3 @@
 name: Siqi Han
 markdown: kramdown
+permalink: /paper/:year/:month/:day/:title
