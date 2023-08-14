@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Siqi Han - 不研究社交媒体，还能进入计算社会科学领域吗？ </title>
+    <link rel="stylesheet" type="text/css" href="/css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="/css/fontawesome.css">
+    
+    
+    <link rel="stylesheet" type="text/css" href="/css/styles.min.d1b3428734153d8c3b5e2f3598da20a6372f630ae87c763594b98c554c580343.css">
+    
+    
+    <meta charset="UTF-8">
+    <meta name="author" content="Siqi Han">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+<body>
+<header class="page-header">
+    <div class="myname"> 
+        <h2><a href="http://sqhsoc.github.io">Siqi Han</a></h2> 
+    </div>
+    <nav>
+        <ul class="navbar">
+            <li class="">
+                <a href="/about">
+                    <span>About</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/posts/">
+                    <span>Blog</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/publications">
+                    <span>Publications</span>
+                </a>
+            </li>
+            <li class="">
+                <a href="/teaching">
+                    <span>Teaching</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<div id="content">
+    <main>
+        <article>
+            
+            <h1 class="page-title">不研究社交媒体，还能进入计算社会科学领域吗？</h1>
+            
+                <p><a href="https://mp.weixin.qq.com/s?__biz=MzI5MDEwNzMwMQ==&amp;mid=2247490806&amp;idx=1&amp;sn=25aab46eb0b9af6c20e0d4ad1278512f&amp;chksm=ec25a63cdb522f2af2ddf927ef38fac0cd085dcc4672adc970bf2745c05377da3f147d105bf8&amp;scene=90&amp;subscene=93&amp;sessionid=1663981082&amp;clicktime=1663981083&amp;enterid=1663981083&amp;ascene=56&amp;fasttmpl_type=0&amp;fasttmpl_fullversion=6343513-zh_CN-zip&amp;fasttmpl_flag=0&amp;realreporttime=1663981083696&amp;devicetype=android-31&amp;version=28001843&amp;nettype=WIFI&amp;lang=zh_HK&amp;session_us=gh_05f8e3709743&amp;exportkey=AoSig8xDucxQwAX5DVkAnW4%3D&amp;pass_ticket=k%2Fo%2BQ%2FCORTR09f%2B90EbbD0QooZ3DfeHFRSvcZe7qykZgFkuSVRZXuMg7DCNGflTW&amp;wx_header=3">original post at 缪斯夫人</a></p>
+<p>撰文：韩思齐</p>
+<p>责编：钱岳</p>
+<p>写在前面</p>
+<p>过去一年多我接触了不少申请社会学博士的同学，以及来到香港中文大学社会学系读博士的新同学。虽然大家对计算社会学(computational sociology)的兴趣越来越大，但是在我自己的研究方向(higher education, school to work transition)内，我还没看到过运用计算社会科学(computational social sciences)方法的申请材料和研究计划。</p>
+<p>我认为，这可能因为目前计算社会科学的研究中，使用社交媒体数据是主流，导致大家可能会忽视一些其他有潜力的方向。不做社会网络、传播、民意/情绪、地理位置与移动等研究的社会学研究者，可能不知道如何使用这些工具来进行一些比较创新的研究。</p>
+<p>我通过简单回顾我个人接触计算社会科学的过程，来介绍一下计算社会科学的方法和工具在教育社会学和社会分层研究中的潜力。</p>
+<p>1</p>
+<p>入门</p>
+<p>博士期间我给一名社会网络研究专家当研究助理，他当时的项目，大意是通过fMRI实验，搜集受试者互动时的脑神经活动，Treatment是对方是否知道和自己互动的人的社会地位（status），知道对方是高地位者之后是否会导致特定脑神经活动，并且改变自己的行为选择。这个数据收集到之后可以被建构为一个互动网络，然后再判断对方社会地位对这个网络的影响。</p>
+<p>为此，我旁听了他的社会网络研讨班，并且接触了一些R语言，但是并不深入，没有用在实际研究中。在我接触R语言的档口，我在网上看到Duke社会学系Kieran Healy教授的个人主页，非常喜欢他提供的资源（https://kieranhealy.org/resources/），里面介绍了除R以外，其他可以实现基于纯文本（i.e., MS Word就不是纯文本工具，不能使用git进行版本控制）工作的各种工具（如Markdown, Emacs, Pandoc, git等），这成为了我决心入门计算社会科学的契机。（特别提一句，Emacs 可谓是control freak，DIY狂的福音，我曾经希望把所有一切都用Emacs来记录，虽然现在已经放弃。）</p>
+<p>但是光有工具还是不够。要如何真正在自己的研究领域使用这些工具呢？博士最后一年，在诸多的申请中，我在偶然机会下看到了哥伦比亚大学的一个博士后的职位, 项目的内容是研究美国大学的知识结构，从不同类型的课程内容中建构一个定量指标，从而测量什么是更加具备人文通识特质的大学课程体系，这种课程体系在哪里可以找到，对学生日后长远发展又有什么功效。</p>
+<p>当时我意识到，这就是我作为一个教育社会学研究者进入计算社会科学的机会，因为课程内容首先是一个教育社会学的题目，以前只存在小样本手动进行的质性分析。正因为它所包含的都是非结构化的文本数据（unstructured text）, 要对它进行大规模体系化分析，必须使用计算社会科学的工具，也就是自然语言分析（natural language processing）。</p>
+<p>因为这个博士后职位在一众岗位中看起来很特殊 (<a href="https://incite.columbia.edu/">https://incite.columbia.edu/</a> 是一个跨学科研究所，研究项目都很“敢”，不太常规)，我甚至之前也没怎么听说过这个研究所，所以为此我写了一篇很短很非主流的个人陈述。自认为，我的发表应该在导师眼里真不算什么，他也不研究社会分层或教育社会学，所以个人陈述中，我没有过多介绍自己的发表，而是用了主要的篇幅讲了讲我认为教育社会学现在的问题有哪些，用计算社科的工具研究教育社会学可能会有哪些新突破等等一般的个人陈述不会讲的批判性话题。抱着不会被录取的心态去了趟纽约，和研究所的教授和同事们见了面，没有想什么结果地参加完这个面试。最后结果是，拿到了offer。</p>
+<p>2</p>
+<p>进一步学习</p>
+<p>开始工作后，我发现最直接的学习方法，不是上Coursera Datacamp 等平台的python课程，而是根据项目每天遇到的新情况，随机应变地学习一个个新的技能。比如我们团队当时需要收集每个学校网页上的文字内容，我就学习了beautiful soup, selenium (抓取网页的两个Python package)；之后，我们又需要清理一些没有意义的词汇，于是我又学习了Regex （搜索工具）；之后我们又需要不断地改变数据的结构，建立新变量，于是我又学习了Pandas （组织数据结构的强大工具）。长此以往，不断地增加这些技能，什么时候需要新的技能，就学习那个需要的技能。</p>
+<p>看过一些硅谷科技创业相关美剧的朋友们应该知道，即使是资深程序员，可能也每天在查询Stack Overflow，因为他们并不会去记忆这些代码，而是需要用了就去迅速地看一下代码的结构即可。不同于Stata 简洁而易于记忆的代码风格，无论R还是Python都不是只通过上课、记忆、做一些没有具体研究目标的练习题就能熟练的。</p>
+<p>3</p>
+<p>计算社会科学方法在教育社会学中的应用案例</p>
+<p>于是，在这个为了项目不断学习的过程中，我也接触了不少和教育社会学、社会分层相关的计算社会科学研究。这些研究使用的并非社交媒体数据；相反，学校的mission statement、网课系统中的学生点击数据、学生申请大学时使用的申请材料、以及我自己的研究使用的课程大纲资料，都是可以使用的素材。下面列出几篇论文供大家参考。</p>
+<ul>
+<li>
+<pre><code>  Haber, Jaren R.  “Sorting Schools: A Computational Analysis of Charter School Identities and Stratification” Sociology of Education 94, no. 1 (2021):43–64.
+</code></pre>
+</li>
+<li>
+<pre><code>  Alvero, A. J., Sonia Giebel, Ben Gebre-Medhin, Anthony Lising Antonio, Mitchell L. Stevens, and Benjamin W. Domingue. &quot;Essay content and style are strongly related to household income and SAT scores: Evidence from 60,000 undergraduate applications.&quot; Science advances 7, no. 42 (2021): eabi9031.
+</code></pre>
+</li>
+<li>
+<pre><code>  Pardos, Zachary A., and Andrew Joo Hun Nam. &quot;A university map of course knowledge.&quot; PloS one 15, no. 9 (2020): e0233207.
+</code></pre>
+</li>
+</ul>
+<p>虽然这些研究目前都采用英文数据，所以必然也要用英文的自然语言分析工具来分析，但中文世界已经开发了许多可用的分词、命名实体识别、情绪分析等工具，包括现在主流的Python 语言分析工具 Spacy, 也已经支持中文分析 (<a href="https://spacy.io/models/zh">https://spacy.io/models/zh</a>)。</p>
+<p>4</p>
+<p>结语</p>
+<p>和同事聊天后我才意识到，使用计算社会科学工具的女性学者的数量似乎明显少于男性学者。博士阶段研究STEM Education的我猜测，可能未来在这个领域又会重现与STEM Gender Inequality相类似的CSS Gender Inequality。所以作为结语：</p>
+<p>虽然当一个研究问题已经可以用传统的调查数据回答好的时候，并不需要硬性地去使用计算社会科学方法，但希望在选题合适使用大数据和计算社会科学方法的时候，有更多的女性社会学家也能使用这些方法，发表更加创新的、更有洞见的研究。</p>
+
+            
+        </article>
+    </main>
+
+        </div><footer>
+    <span></span>
+</footer>
+</body>
+</html>
