@@ -3,7 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://sqhsoc.github.io/posts/</loc>
-    <lastmod>2023-03-30T00:36:41+08:00</lastmod>
+    <lastmod>2023-11-08T00:36:41+08:00</lastmod>
+  </url><url>
+    <loc>http://sqhsoc.github.io/posts/%E7%BC%AA%E6%96%AF%E5%A4%AB%E4%BA%BA2/</loc>
+    <lastmod>2023-11-08T00:36:41+08:00</lastmod>
   </url><url>
     <loc>http://sqhsoc.github.io/posts/%E5%AE%9A%E9%87%8F%E7%BE%A4%E5%AD%A62/</loc>
     <lastmod>2023-03-30T00:36:41+08:00</lastmod>
@@ -52,7 +55,5 @@
     <loc>http://sqhsoc.github.io/month/</loc>
   </url><url>
     <loc>http://sqhsoc.github.io/year/</loc>
-  </url><url>
-    <loc>http://sqhsoc.github.io/posts/%E7%BC%AA%E6%96%AF%E5%A4%AB%E4%BA%BA2/</loc>
   </url>
 </urlset>
