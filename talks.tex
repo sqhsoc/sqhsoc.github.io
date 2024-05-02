@@ -1,0 +1,121 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+%
+\documentclass[
+]{article}
+\usepackage{amsmath,amssymb}
+\usepackage{lmodern}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math}
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{xcolor}
+\usepackage[margin=1in]{geometry}
+\usepackage{graphicx}
+\makeatletter
+\def\maxwidth{\ifdim\Gin@nat@width>\linewidth\linewidth\else\Gin@nat@width\fi}
+\def\maxheight{\ifdim\Gin@nat@height>\textheight\textheight\else\Gin@nat@height\fi}
+\makeatother
+% Scale images if necessary, so that they will not overflow the page
+% margins by default, and it is still possible to overwrite the defaults
+% using explicit options in \includegraphics[width, height, ...]{}
+\setkeys{Gin}{width=\maxwidth,height=\maxheight,keepaspectratio}
+% Set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{-\maxdimen} % remove section numbering
+\ifLuaTeX
+  \usepackage{selnolig}  % disable illegal ligatures
+\fi
+\IfFileExists{bookmark.sty}{\usepackage{bookmark}}{\usepackage{hyperref}}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same} % disable monospaced font for URLs
+\hypersetup{
+  pdftitle={Recent Talks},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Recent Talks}
+\author{}
+\date{\vspace{-2.5em}2023-02-27T00:15:39+08:00}
+
+\begin{document}
+\maketitle
+
+Selected recent talks.
+
+\begin{itemize}
+\tightlist
+\item
+  RC28 Spring Meeting. ``Interdisciplinary Teaching, Interdisciplinary
+  Research, and Earnings Inequality Across Higher Education
+  Institutions''. 2024. Shanghai.\\
+\item
+  Population Association of Singapore
+  \href{https://www.sgpopulation.org/programme-2024}{Annual Meeting}.
+  ``Gender Differences in STEM Persistence: The Role of Grade Growth and
+  Biased Assessments of Brilliance''. 2024. Singapore.
+\item
+  Population Association of America
+  \href{https://submissions.mirasmart.com/PAA2024/Itinerary/PresentationDetail.aspx?evdid=826}{Annual
+  Meeting}. ``Gender Differences in STEM Persistence: The Role of Grade
+  Growth and Biased Assessments of Brilliance''. 2024. Columbus, OH.
+\item
+  Academia Sinica
+  \emph{\href{https://www.ios.sinica.edu.tw/msgNoE/20240323-2}{Computing
+  Society}} Workshop. ``Sociology of Education in the Era of Big Data''.
+  2024. Taipei.
+\item
+  HKSA 2024 Research Method Workshop. ``Collecting Unstructured Textual
+  Data for Studies in Social Stratification''. 2024. Hong Kong.
+\item
+  深圳大学政府管理学院
+  \emph{\href{https://sg.szu.edu.cn/info/1006/1641.htm}{鹏城群学论坛}}.
+  ``谁能拿到铁饭碗？大学专业的市场性与体制内工作的获得''. 2023.
+  Shenzhen.
+\item
+  Hong Kong Sociological Association
+  \href{https://www.soc.cuhk.edu.hk/conference/hong-kong-sociological-association-24th-annual-conference/}{Annual
+  Meeting}. ``Interdisciplinary Teaching, Interdisciplinary Research,
+  and Earnings Inequality Across Higher Education Institutions''. 2023.
+  Hong Kong.
+\item
+  American Sociological Association
+  \href{https://convention2.allacademic.com/one/asa/asa23/index.php?cmd=Online+Program+View+Session\&selected_session_id=2073361\&PHPSESSID=104ls6dveb8kr5as3o25f2mlp5}{Annual
+  Meeting}. ``Diversified Jobs or Diversified Skills: Skill Diversity
+  and Inequality in the Polarized Labor Market''. 2023. Philadelphia.
+\item
+  RC 28 Spring
+  \href{https://rc28paris2023.sciencesconf.org/data/pages/2023_05_24_4.pdf}{Meeting}.
+  ``Gender Differences in STEM Persistence: The Role of Grade Growth and
+  Biased Assessments of Brilliance''. 2023. Paris.
+\end{itemize}
+
+\end{document}
