@@ -2,23 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://sqhsoc.github.io/posts/</loc>
+    <loc>http://sqhsoc.github.io/publications/</loc>
+    <lastmod>2026-04-02T00:15:39+08:00</lastmod>
+  </url><url>
+    <loc>http://sqhsoc.github.io/media/</loc>
     <lastmod>2025-12-31T00:36:41+08:00</lastmod>
   </url><url>
-    <loc>http://sqhsoc.github.io/posts/%E6%96%A9%E6%9D%80%E7%BA%BF/</loc>
+    <loc>http://sqhsoc.github.io/media/2025/12/%E5%BE%9E%E9%81%8A%E6%88%B2%E8%A1%93%E8%AA%9E%E5%88%B0%E7%A4%BE%E6%9C%83%E7%84%A6%E6%85%AE%E5%AD%B8%E8%80%85%E8%A7%A3%E8%AE%80%E7%BE%8E%E5%9C%8B%E6%96%AC%E6%AE%BA%E7%B7%9A%E7%82%BA%E4%BD%95%E5%BC%95%E5%85%B1%E9%B3%B4/</loc>
     <lastmod>2025-12-31T00:36:41+08:00</lastmod>
   </url><url>
-    <loc>http://sqhsoc.github.io/posts/rssm-essay/</loc>
+    <loc>http://sqhsoc.github.io/media/2025/12/%E7%84%A6%E8%99%91%E7%9A%84%E4%B8%9C%E4%BA%9A%E5%A5%B3%E6%80%A7%E7%94%A8%E4%BB%8A%E6%97%A5%E7%9A%84%E5%AD%A6%E5%8E%86%E8%A1%A5%E5%81%BF%E6%98%8E%E6%97%A5%E7%9A%84%E6%80%A7%E5%88%AB%E5%8A%A3%E5%8A%BF/</loc>
     <lastmod>2025-12-24T00:36:41+08:00</lastmod>
   </url><url>
     <loc>http://sqhsoc.github.io/</loc>
     <lastmod>2023-03-02T19:41:15+08:00</lastmod>
   </url><url>
-    <loc>http://sqhsoc.github.io/about-me/</loc>
+    <loc>http://sqhsoc.github.io/about/</loc>
     <lastmod>2023-03-02T19:41:15+08:00</lastmod>
-  </url><url>
-    <loc>http://sqhsoc.github.io/publications/</loc>
-    <lastmod>2023-02-27T00:15:39+08:00</lastmod>
   </url><url>
     <loc>http://sqhsoc.github.io/talks/</loc>
     <lastmod>2023-02-27T00:15:39+08:00</lastmod>
@@ -41,7 +41,7 @@
     <loc>http://sqhsoc.github.io/teaching/</loc>
     <lastmod>2023-02-27T00:12:33+08:00</lastmod>
   </url><url>
-    <loc>http://sqhsoc.github.io/posts/essays/</loc>
+    <loc>http://sqhsoc.github.io/media/2022/11/older-essays/</loc>
     <lastmod>2022-11-08T00:36:41+08:00</lastmod>
   </url><url>
     <loc>http://sqhsoc.github.io/categories/</loc>
