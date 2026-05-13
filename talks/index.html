@@ -54,26 +54,115 @@
             
             <h1 class="page-title">Talks</h1>
             
-                <p>Here are some of my recent talks.</p>
-<ul>
-<li>RC28 at UCLA. &ldquo;The Rise of Gender-Restricted Job Positions in China&rsquo;s Civil Service Exams: Trends and &ldquo;Justifications&rdquo;&rdquo; &amp; &ldquo;Skill Diversification Beyond High-Paying Jobs&rdquo;. 2025. Los Angeles, USA.</li>
-<li><a href="https://sicss.io/2025/lingnan/people">SICSS</a> @ Lingnan University. &ldquo;Measuring Diversity: Knowledge and Skill Cross-Fertilization with Computational Methods.&rdquo; 2025. Hong Kong.</li>
-<li>ICSA 2025. &ldquo;The Rise of Gender-Restricted Job Positions in China&rsquo;s Civil Service Exams: Trends and &ldquo;Justifications&rdquo;&rdquo;. Chengdu, China.</li>
-<li>ISA 2025. &ldquo;The Rise of Gender-Restricted Job Positions in China&rsquo;s Civil Service Exams: Trends and &ldquo;Justifications&rdquo; &ldquo;. Rabat, Morrocco.</li>
-<li>AERA 2025. &ldquo;Assessing Economic Returns from Interdisciplinary Teaching and Research in Universities: A Computational Textual Analysis Approach&rdquo;. Denver, USA.</li>
-<li>The 3rd International Conference on Computational Social Science. “Conceptual Recombination as a Distinctive Feature of Liberal Arts Curriculum”. 2025. Hong Kong.</li>
-<li>RC28 Spring Meeting. “Interdisciplinary Teaching, Interdisciplinary Research, and Earnings Inequality Across Higher Education Institutions”. 2024. Shanghai.</li>
-<li>中国社会科学院 &ldquo;大数据及人工智能与社会发展&rdquo; <a href="https://www.cssn.cn/skgz/bwyc/202405/t20240528_5755141.shtml">工作坊</a>. “高等教育大数据与 AI 时代的人才发展”. 2024. Beijing.</li>
-<li><a href="https://cssl.socsc.cuhk.edu.hk/2024/06/03/school-to-work-transition-in-big-data/">Webinar</a> of Computational Social Science Laboratory (CSSL@CUHK). &ldquo;School-to-work Transition in Big Data&rdquo;. 2024. Hong Kong.</li>
-<li>Population Association of Singapore <a href="https://www.sgpopulation.org/programme-2024">Annual Meeting</a>. &ldquo;Gender Differences in STEM Persistence: The Role of Grade Growth and Biased Assessments of Brilliance&rdquo;. 2024. Singapore.</li>
-<li>Population Association of America <a href="https://submissions.mirasmart.com/PAA2024/Itinerary/PresentationDetail.aspx?evdid=826">Annual Meeting</a>. &ldquo;Gender Differences in STEM Persistence: The Role of Grade Growth and Biased Assessments of Brilliance&rdquo;. 2024. Columbus, OH.</li>
-<li>Academia Sinica <em><a href="https://www.ios.sinica.edu.tw/msgNoE/20240323-2">Computing Society</a></em> Workshop. &ldquo;Sociology of Education in the Era of Big Data&rdquo;. 2024. Taipei.</li>
-<li>HKSA 2024 Research Method Workshop. &ldquo;Collecting Unstructured Textual Data for Studies in Social Stratification&rdquo;. 2024. Hong Kong.</li>
-<li>深圳大学政府管理学院 <em><a href="https://sg.szu.edu.cn/info/1006/1641.htm">鹏城群学论坛</a></em>.  “谁能拿到铁饭碗？大学专业的市场性与体制内工作的获得”. 2023. Shenzhen.</li>
-<li>Hong Kong Sociological Association <a href="https://www.soc.cuhk.edu.hk/conference/hong-kong-sociological-association-24th-annual-conference/">Annual Meeting</a>. &ldquo;Interdisciplinary Teaching, Interdisciplinary Research, and Earnings Inequality Across Higher Education Institutions&rdquo;. 2023. Hong Kong.</li>
-<li>American Sociological Association <a href="https://convention2.allacademic.com/one/asa/asa23/index.php?cmd=Online+Program+View+Session&amp;selected_session_id=2073361&amp;PHPSESSID=104ls6dveb8kr5as3o25f2mlp5">Annual Meeting</a>. &ldquo;Diversified Jobs or Diversified Skills: Skill Diversity and Inequality in the Polarized Labor Market”. 2023. Philadelphia.</li>
-<li>RC 28 Spring <a href="https://rc28paris2023.sciencesconf.org/data/pages/2023_05_24_4.pdf">Meeting</a>. “Gender Differences in STEM Persistence: The Role of Grade Growth and Biased Assessments of Brilliance”. 2023. Paris.</li>
-</ul>
+                
+<style>
+.talk-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 180px;
+  margin: 20px 0;
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+.talk-cover {
+  width: 120px;
+  height: 160px;
+  flex: 0 0 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #f6f6f6;
+}
+.talk-cover img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.talk-text {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.talk-title {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.35;
+}
+@media (max-width: 768px) {
+  .talk-row {
+    gap: 14px;
+    min-height: 120px;
+  }
+  .talk-cover {
+    width: 84px;
+    height: 110px;
+    flex-basis: 84px;
+  }
+  .talk-title {
+    font-size: 1rem;
+  }
+}
+</style>
+
+
+<p>Some invited talks over the past few years.</p>
+
+<div class="talk-row">
+  <div class="talk-cover">
+    <img src="/img/hku_talk.jpg" alt="hkutalk">
+  </div>
+  <div class="talk-text">
+    <h2 class="talk-title">Quantifying Knowledge and Skill Diversity in Textual Big Data @ University of Hong Kong </h2>
+  </div>
+</div>
+
+
+
+<div class="talk-row">
+  <div class="talk-cover">
+    <img src="/img/macau_talk.jpg" alt="mctalk">
+  </div>
+  <div class="talk-text">
+    <h2 class="talk-title">Skill Diversification Beyond High-Paying Jobs @ University of Macau </h2>
+  </div>
+</div>
+
+
+
+<div class="talk-row">
+  <div class="talk-cover">
+    <img src="/img/lingnan_sicss.jpg" alt="lingnan_css">
+  </div>
+  <div class="talk-text">
+    <h2 class="talk-title">Measuring Diversity: Knowledge and Skill Cross-Fertilization with Computational Methods @ Lingnan University </h2>
+  </div>
+</div>
+
+
+
+<div class="talk-row">
+  <div class="talk-cover">
+    <img src="/img/cass.jpg" alt="cass">
+  </div>
+  <div class="talk-text">
+    <h2 class="talk-title">高等教育大数据与 AI 时代的人才发展 @ 中国社会科学院社会学研究所 </h2>
+  </div>
+</div>
+
+
+
+<div class="talk-row">
+  <div class="talk-cover">
+    <img src="/img/sinica.jpg" alt="acsi">
+  </div>
+  <div class="talk-text">
+    <h2 class="talk-title">Sociology of Education in the Era of Big Data @ Academia Sinica </h2>
+  </div>
+</div>
+
+
 
             
         </article>
